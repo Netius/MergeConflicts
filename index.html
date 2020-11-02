@@ -10,7 +10,12 @@
     </head>
     <body>
        <h1>Merge conflicts</h1>
-        <p>Just cause some merge conflicts to do this task</p>        
-        <script src="" async defer></script>
+        <p>Just cause some merge conflicts to do this task</p> <span id="random-number">0</span>        
+        <script>
+            const randomNumber = document.getElementById("random-number");
+            setInterval(function(){   
+            randomNumber.innerHTML = (Math.floor((Math.random()*100)+1)); 
+}, 2000);
+        </script>
     </body>
 </html>
