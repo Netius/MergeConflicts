@@ -1,4 +1,3 @@
-
     const randomNumber = document.getElementById("random-number");
     const textColor = document.getElementById("text-color");
     const colors = ["red", "pink", "blue", "green", "yellow"]
